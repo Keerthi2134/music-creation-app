@@ -15,7 +15,7 @@ function App() {
     setIsLoading(true);
     setPrompt(newPrompt); // Update state even before API call to disable button
 
-    const apiKey = 'AIzaSyAKZ3qsbHowI9ooxZMKA3BzeCIW9R1xMQU'; // Replace with your actual API key
+    const apiKey = 'API_KEY'; // Replace with your actual API key
     const url = `https://api.gemini.ai/v1/music/generate?prompt=${newPrompt}&api_key=${apiKey}`;
 
     try {
