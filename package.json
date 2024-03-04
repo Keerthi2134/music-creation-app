@@ -1,0 +1,15 @@
+{
+  "$schema": "./schema.json",
+  "name": "music-creation-app",
+  "version": "1.0.0",
+  "description": "music generation platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music"
+  ],
+  "author": "keerthivasan",
+  "license": "MIT"
+}
